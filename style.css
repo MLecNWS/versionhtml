@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+header{
+    overflow: hidden;
+}
+.menu{
+    background-color: #141414;
+    height: 75pt;
+}
+.menu img{
+    width: 36%;
+    margin-left: 27%;
+}
+.imgb{
+    background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
+    min-height: 550px; 
+    min-width: 200%;
+    margin-left: -50%;
+    margin-top: -5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.imgb h2{
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-left: 34%;
+
+}
+.imgb p{
+    color: white;
+    width: 40%;
+    font-size: 0.8em;
+    text-align: center;
+    margin-left: 30%;
+}
+main{
+    overflow: hidden !important;
+}
+.fondnoir{
+    background-color:#141414 ;
+    height: 1700px;
+}
+.max img {
+    width:60%;
+    margin-left: 19%;
+    margin-top: 10%;
+    border-radius: 100px;
+}
+.max h1 {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.max .trait{
+    background-color: #3e9b95;
+    width: 15%;
+    height: 2pt;
+    margin-top: 18%;
+    margin-bottom: 18%;
+    margin-left: 42%;
+}
+.max p{
+    color: white;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: 8%;
+    margin-bottom: 30%;
+}
+.portfolio{
+    background-color:#141414;
+    height: 720pt;
+    margin-left:0% ;
+    width:100%;
+    padding-top:13%;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 299px;   
+}
+.portfolio h3{
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 1em;
+}
+.mc{
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+    width: 100%;
+    height: 50%;
+}
+.mc:hover {
+
+	filter: grayscale(0%);
+}
+
+.sondage{
+    background-image: url('/desat-gb_macbook.jpg');
+    min-height: 600px; 
+    min-width: 200%;
+    margin-left: -50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    padding-top: 10%;
+
+}
+.sondage h1{
+    color: #141414;
+    width: 40%;
+    margin-left: 35%;
+    font-size: 1.3em;
+}
+.skills{
+    background-color: #141414;
+    padding-top: 20px;
+}
+.skills h2{
+    color: white;
+    width: 60%;
+    font-size: 1.7em;
+    padding-bottom: 5%;
+    margin-left: 20%;
+}
+.skills .trait{
+    background-color: #3e9b95;
+    width: 15%;
+    height: 2pt;
+    margin-top: 18%;
+    margin-bottom: 18%;
+    margin-left: 42%;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  h2{
+      padding-top: 18%;
+  }
+
+.info{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.developpeur{
+font-size: 63px;
+padding-left: 0px;
+}
+
+.img{
+padding-left: 2%;
+margin-top: 0px;
+width: 150px;
+height: 120px;
+}
+.info h3{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+.info  p {
+padding-left: 20px;
+font-size: 35px;
+width: 80%;
+color: white;
+font-size: 1em;
+}
+.contact{
+    background-image: url('/laptop.jpg');
+    min-height: 450px; 
+    min-width: 200%;
+    margin-left: -50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(60%);
+    padding-top: 10%;
+    overflow: hidden !important;
+}
+.boxreseaux{
+    background-color: #141414;
+    height: 500pt;
+}
+.boxreseaux h1{
+    color: white;
+    width: 70%;
+    margin-left: 25%;
+    font-size: 1.4em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.reseaux a img{
+    width: 50%;
+    margin-left: 25%;
+}
+footer{
+    background-color: black;
+    height: 40pt;
+
+}
+footer h1{
+    font-size: 0.8em;
+    color: white;
+}
+@media screen and (min-width: 940px){
+    .menu{
+         background-color: #141414;
+        height: 41pt;
+        overflow:  hidden !important;
+
+    }
+
+    .menu img{
+        width: 9%;
+        margin-left: 3%;
+    }
+    .imgb{
+        background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
+        margin-top: 0%;
+        min-height: 600px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .imgb h2{
+        color: white;
+        width: 30%;
+        font-size: 4em;
+        text-align: center;
+        margin-left: 34%;
+    
+    }
+    .imgb p{
+        color: white;
+        width: 40%;
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .fondnoir{
+        background-color:#141414 ;
+        height: 100px;
+        
+    }
+    .max img {
+        width:18%;
+        margin-left: 41%;
+        margin-top: 10%;
+        border-radius: 100px;
+    }
+    .max h1 {
+        color: white;
+        font-size: 1.5em;
+        margin-left: 30%;
+        padding-top: 5%;
+    }
+    .max .trait{
+        background-color: #3e9b95;
+        width: 10%;
+        height: 2pt;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 46%;
+    }
+    .max p{
+        color: white;
+        margin-left: 25%;
+        width: 50%;
+        font-size: 1.2em;
+        margin-bottom: 5%;
+    }
+    .portfolio{
+        height: 50pt;
+        padding-top: 80%;
+    }
+    .portfolioimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-row: 1fr 1fr;
+    }
+    .mc{
+        width: 105%;
+        height: 80%;
+    }
+    .sondage{
+        background-image: url('/desat-gb_macbook.jpg');
+        min-height: 200px; 
+        min-width: 200%;
+        margin-left: -50%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(100%);
+        padding-top: 10%;
+        overflow: hidden !important;
+    }
+    .sondage h1{
+        color: #141414;
+        width: 40%;
+        margin-left: 35%;
+        font-size: 1.3em;
+    }
+    .skills h2{
+        color: white;
+        width: 40%;
+        font-size: 1.7em;
+        padding-bottom: 0%;
+        margin-left: 39%;
+    }
+    .skills .trait{
+        background-color: #3e9b95;
+        width: 10%;
+        height: 2pt;
+        margin-top: 8%;
+        margin-bottom: 10%;
+        margin-left: 42%;
+    }
+    .competences{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contact{
+        background-image: url('/laptop.jpg');
+        min-height: 200px; 
+        min-width: 200%;
+        margin-left: -50%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(60%);
+        padding-top: 10%;
+        overflow: hidden !important;
+    }
+    .reseaux{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .boxreseaux{
+        background-color: #141414;
+        height: 350pt;
+    }
+    .boxreseaux h1{
+        color: white;
+        width: 70%;
+        margin-left: 30%;
+        font-size: 1.4em;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .reseaux a img{
+        padding-top: 10%;
+        width: 40%;
+        margin-left: 30%;
+    }
+}
