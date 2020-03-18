@@ -15,7 +15,7 @@ header{
     margin-left: 27%;
 }
 .imgb{
-    background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
+    background-image: url('Maxime_Le_Corre_Développeur_Web_2.jpg');
     min-height: 550px; 
     min-width: 200%;
     margin-left: -50%;
@@ -103,7 +103,7 @@ main{
 }
 
 .sondage{
-    background-image: url('/desat-gb_macbook.jpg');
+    background-image: url('desat-gb_macbook.jpg');
     min-height: 600px; 
     min-width: 200%;
     margin-left: -50%;
@@ -180,7 +180,7 @@ color: white;
 font-size: 1em;
 }
 .contact{
-    background-image: url('/laptop.jpg');
+    background-image: url('laptop.jpg');
     min-height: 450px; 
     min-width: 200%;
     margin-left: -50%;
@@ -230,7 +230,7 @@ footer h1{
         margin-left: 3%;
     }
     .imgb{
-        background-image: url('/Maxime_Le_Corre_Développeur_Web_2.jpg');
+        background-image: url('Maxime_Le_Corre_Développeur_Web_2.jpg');
         margin-top: 0%;
         min-height: 600px; 
         background-attachment: fixed;
@@ -300,7 +300,7 @@ footer h1{
         height: 80%;
     }
     .sondage{
-        background-image: url('/desat-gb_macbook.jpg');
+        background-image: url('desat-gb_macbook.jpg');
         min-height: 200px; 
         min-width: 200%;
         margin-left: -50%;
@@ -339,7 +339,7 @@ footer h1{
         grid-template-rows: 1fr 1fr;
     }
     .contact{
-        background-image: url('/laptop.jpg');
+        background-image: url('laptop.jpg');
         min-height: 200px; 
         min-width: 200%;
         margin-left: -50%;
