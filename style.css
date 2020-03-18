@@ -163,7 +163,7 @@ padding-left: 0px;
 padding-left: 2%;
 margin-top: 0px;
 width: 150px;
-height: 120px;
+height: 150px;
 }
 .info h3{
     color: white;
@@ -268,7 +268,7 @@ footer h1{
     .max h1 {
         color: white;
         font-size: 1.5em;
-        margin-left: 30%;
+        margin-left: 40%;
         padding-top: 5%;
     }
     .max .trait{
@@ -287,7 +287,7 @@ footer h1{
         margin-bottom: 5%;
     }
     .portfolio{
-        height: 50pt;
+        height: 100pt;
         padding-top: 80%;
     }
     .portfolioimg{
@@ -315,7 +315,7 @@ footer h1{
     .sondage h1{
         color: #141414;
         width: 40%;
-        margin-left: 35%;
+        margin-left: 45%;
         font-size: 1.3em;
     }
     .skills h2{
@@ -357,12 +357,12 @@ footer h1{
     }
     .boxreseaux{
         background-color: #141414;
-        height: 350pt;
+        height: 400pt;
     }
     .boxreseaux h1{
         color: white;
         width: 70%;
-        margin-left: 30%;
+        margin-left: 40%;
         font-size: 1.4em;
         padding-top: 5%;
         padding-bottom: 5%;
